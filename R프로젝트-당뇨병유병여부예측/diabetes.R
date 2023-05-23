@@ -28,7 +28,7 @@ nrow(data_subj)
 head(data_subj,10)
 
 #histogram 
-hist(data_subj$HE_glu,freq=F,ylim=c(0,0.05),main='Histogram',xlab='He_glue °øº¹Ç÷´ç',col='white')
+hist(data_subj$HE_glu,freq=F,ylim=c(0,0.05),main='Histogram',xlab='He_glue Â°Ã¸ÂºÂ¹Ã‡Ã·Â´Ã§',col='white')
 #kernel density plot
 lines(density(data_subj$HE_glu),col='red',lwd=2)
 
